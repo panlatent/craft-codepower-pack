@@ -93,7 +93,7 @@ class Volume extends \craft\base\Field
 
 use panlatent\craft\attribute\web\AllowAnonymous;
 use panlatent\craft\attribute\web\RequiredLogin;
-use \panlatent\craft\attribute\web\HasAttributes;
+use panlatent\craft\attribute\web\HasAttributes;
 
 class UserController extends \craft\web\Controller
 {

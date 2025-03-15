@@ -1,0 +1,52 @@
+{
+  "name": "panlatent/craft-codepower-pack",
+  "description": "Improve encoding experience",
+  "type": "craft-plugin",
+  "license": "mit",
+  "support": {
+    "email": "panlatent@gmail.com",
+    "issues": "https://github.com/git@github.com:panlatent/craft-codepower-pack.git/issues?state=open",
+    "source": "https://github.com/git@github.com:panlatent/craft-codepower-pack.git",
+    "docs": "https://github.com/git@github.com:panlatent/craft-codepower-pack.git",
+    "rss": "https://github.com/git@github.com:panlatent/craft-codepower-pack.git/releases.atom"
+  },
+  "require": {
+    "php": ">=8.2",
+    "craftcms/cms": "^5.0",
+    "panlatent/craft-annotations": "dev-main",
+    "panlatent/craft-enums": "dev-main",
+    "panlatent/craft-event-register": "dev-main",
+    "panlatent/craft-form-schema": "dev-main",
+    "symfony/process": "*"
+  },
+  "require-dev": {
+    "craftcms/ecs": "dev-main",
+    "craftcms/phpstan": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "panlatent\\craft\\codepowerpack\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "codepower-pack",
+    "name": "Codepower Pack",
+    "developer": "Panlatent",
+    "documentationUrl": "https://github.com/panlatent/craft-codepower-pack"
+  },
+  "scripts": {
+    "check-cs": "ecs check --ansi",
+    "fix-cs": "ecs check --ansi --fix",
+    "phpstan": "phpstan --memory-limit=1G"
+  },
+  "config": {
+    "sort-packages": true,
+    "platform": {
+      "php": "8.2"
+    },
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
+    }
+  }
+}

@@ -82,7 +82,7 @@ class Volume extends \craft\base\Field
 
 </details>
 
-[Annotations](https://github.com/panlatent/craft-annotations) covering some useful PHP Attributes that allow you to annotate controller-level methods.
+[Attribute](https://github.com/panlatent/craft-attribute) It is a richer collection of PHP Attributes for Craft
 
 <details>
 
@@ -91,12 +91,14 @@ class Volume extends \craft\base\Field
 ```php
 <?php
 
-use panlatent\craft\annotations\web\AllowAnonymous;
-use panlatent\craft\annotations\web\RequiredLogin;
+use panlatent\craft\attribute\web\AllowAnonymous;
+use panlatent\craft\attribute\web\RequiredLogin;
+use \panlatent\craft\attribute\web\HasAttributes;
 
 class UserController extends \craft\web\Controller
 {
-
+    use HasAttributes;
+    
     #[AllowAnonymous]
     #[RequiredLogin]
     public function actionIndex()

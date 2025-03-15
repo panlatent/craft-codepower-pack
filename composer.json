@@ -13,7 +13,7 @@
   "require": {
     "php": ">=8.2",
     "craftcms/cms": "^5.0",
-    "panlatent/craft-annotations": "dev-main",
+    "panlatent/craft-attribute": "dev-main",
     "panlatent/craft-enums": "dev-main",
     "panlatent/craft-event-register": "dev-main",
     "panlatent/craft-form-schema": "dev-main",

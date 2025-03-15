@@ -118,7 +118,7 @@ You can install this plugin from the Plugin Store or with Composer.
 
 #### From the Plugin Store
 
-Go to the Plugin Store in your project’s Control Panel and search for “Code Power Pack”. Then press “Install”.
+Go to the Plugin Store in your project’s Control Panel and search for “Codepower Pack”. Then press “Install”.
 
 #### With Composer
 

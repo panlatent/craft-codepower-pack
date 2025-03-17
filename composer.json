@@ -3,6 +3,13 @@
   "description": "Improve encoding experience",
   "type": "craft-plugin",
   "license": "mit",
+  "authors": [
+    {
+      "name": "Panlatent",
+      "email": "panlatent@gmail.com",
+      "homepage": "https://panlatent.com/"
+    }
+  ],
   "support": {
     "email": "panlatent@gmail.com",
     "issues": "https://github.com/git@github.com:panlatent/craft-codepower-pack.git/issues?state=open",

@@ -3,6 +3,9 @@
 Codepower Pack is a plugin to improve the Craft encoding experience. It emphasizes the use of PHP attribute annotations instead of encoding,
 including event register, enum assistants, and other useful tools.
 
+> [!NOTE]
+> Before the official release of version 1.0, 0.x was unstable and always relied on the latest development version of subpackages.
+
 ## What's this?
 
 Essentially, Codepower Pack simply packages some libraries into a plugin for use directly in the Craft Store. You can directly

@@ -1,4 +1,4 @@
 # Release Notes for Codepower Pack
 
-## 1.0.0
+## 0.1.0
 - Initial release
